@@ -1,0 +1,15 @@
+.container {
+    background-color: gray;
+    height: 100px;
+}
+
+.row {
+    background-color: cyan;
+    height: 50px;
+    align-items: center;
+}
+
+.col {
+    background-color: green;
+    height: 25px;
+}
