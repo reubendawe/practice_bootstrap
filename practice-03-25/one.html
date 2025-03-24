@@ -22,6 +22,16 @@
             display: flex;
             justify-content: center;
         }
+
+        .col-4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .row-style {
+            height: 500px;
+        }
         
     </style>
 </head>
@@ -101,7 +111,25 @@
 
     <!-- ############################## COLUMNS ############################## -->
 
-    
+    <div class="container border">
+        <div class="row align-items-center row-style">
+            <div class="col-4">Col 1</div>
+            <div class="col-4">Col 2</div>
+            <div class="col-4">Col 3</div>
+        </div>
+    </div>
+
+    <div class="container border">
+        <div class="row">
+            <div class="col-4">Col 1</div>
+            <div class="col-4">Col 2</div>
+            <div class="col-4">Col 3</div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-2">1</div>
+            <div class="col-2">2</div>
+        </div>
+    </div>
 
     <!-- Popper -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
