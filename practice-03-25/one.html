@@ -13,6 +13,15 @@
             border: 2px solid #fff;
             color: #fff;
         }
+
+        .container, .container-fluid {
+            margin-top: 50px;
+        }
+
+        .wholeCol {
+            display: flex;
+            justify-content: center;
+        }
         
     </style>
 </head>
@@ -58,7 +67,41 @@
             <div class="col-6">Col 2</div>
             <div class="col">Col 2</div>
         </div>
+        <div class="row">
+            <div class="col-md-8">Col 1</div>
+            <div class="col-md-4">Col 2</div>
+        </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">Col 1</div>
+            <div class="col-md-4">Col 2</div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">Col 1</div>
+            <div class="col-4">Col 2</div>
+        </div>
+        <div class="row">
+            <div class="col-12 wholeCol">
+                Whole col
+            </div>
+        </div>
+    </div>
+
+    <div class="container border">
+        <div class="row">
+            <div class="col-lg-8">Col 1</div>
+            <div class="col-lg-4">Col 2</div>
+        </div>
+    </div>
+
+    <!-- ############################## COLUMNS ############################## -->
+
+    
 
     <!-- Popper -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
